@@ -14,11 +14,13 @@ Follow the steps below to create and run your project:
 npm create vite@latest my-app -- --template react-ts
 cd my-app
 # Installation
+```
 ```bash
 npm install
 npm install @reduxjs/toolkit react-redux
 npm install tailwindcss @tailwindcss/vite
 # Installation
+```
 ```bash
 // vite.config.ts
 import { defineConfig } from 'vite';
@@ -30,7 +32,11 @@ export default defineConfig({
 });
 
 # vite.config.ts
+```
 ```bash
 @import "tailwindcss";
 # app.css
+```bash
+npm run dev
+
 

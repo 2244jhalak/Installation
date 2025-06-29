@@ -37,6 +37,7 @@ export default defineConfig({
 app.css
 ```bash
 @import "tailwindcss";
+```
 
 ```bash
 npm run dev
